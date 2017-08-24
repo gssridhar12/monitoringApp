@@ -40,12 +40,17 @@
     </div>
     <div class="row">
       <div class="chart-container" style="position: relative; height:70vh; width:70vw">
+        <label for="scale"><b>Scaling:</b></label>
+        <select class="scale" name="scale">
+          <option value="recent">recent</option>
+          <option value="minute">minute</option>
+        </select>
         <canvas id="myChart"></canvas>
+
       </div>
     </div>
 
   </article>
-
 
   <script src="./public/app.js"></script>
 </body>
